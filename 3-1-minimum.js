@@ -3,3 +3,8 @@
     We can write a function like that ourselves now. 
     Define the function min that takes two arguments and returns their minimum.
 */
+
+const min = (a, b) => {
+    const smallestNumber = a < b ? a : b;
+    return smallestNumber;
+}
